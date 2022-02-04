@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #212529;
 }
@@ -15,7 +15,6 @@ h1 {
 h2 {
     margin-top: 0;
     font-size: 1em;
-    font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
     letter-spacing: 2.2px;
@@ -54,12 +53,13 @@ ul {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     padding: 2em;
 }
 
 header ul {
     display: flex;
+    font-size: 1.2em;
     
 }
 
@@ -67,6 +67,7 @@ header a {
     display: block;
     padding: 0;
     color: #212529;
+    font-weight: 500;
     
     
 }
@@ -83,7 +84,7 @@ header a:active {
 
 header a:focus {
 
-        color: #6c757d;
+    color: #6c757d;
 }
 
 
