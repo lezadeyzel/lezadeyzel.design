@@ -55,6 +55,10 @@ figcaption {
     font-size: 1.1em;
   }
 
+.orange-text a {
+    color: purple;
+}
+
 .text-emphasis {
     font-weight: 700;
     font-style: italic;
@@ -311,7 +315,7 @@ section {
 
 
 .container-about img {
-    width: 50%;
+    width: 100%;
     object-fit: contain;
     
 
