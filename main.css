@@ -230,6 +230,7 @@ section {
 
 .case-study-title {
     display: flex;
+    align-items: center;
     margin: 0 auto;
     padding-bottom: 3em;
     padding-top: 3em;
@@ -286,6 +287,34 @@ section {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.container-about {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-about div {
+    
+    margin: 1em;
+    padding: 1em;
+    width: 33%;
+}
+
+
+
+.container-about img {
+    width: 100%;
+    object-fit: contain;
+    
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
